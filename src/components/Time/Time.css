@@ -1,0 +1,17 @@
+body{
+--cor-time-programacao: #D9F7E9;
+}
+
+.time {
+    text-align: center;
+    padding: 32px;
+}
+
+.time h3 {
+    font-family: 'Prata', serif;
+    font-size: 32px;
+    font-weight: 400;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}

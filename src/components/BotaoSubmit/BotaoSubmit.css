@@ -1,0 +1,14 @@
+.botao-submit {
+    background-color: #6278F7;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 32px;
+    cursor: pointer;
+}
+
+.botao-submit:hover {
+    color: #95ffd4;
+}
