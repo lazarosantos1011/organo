@@ -1,7 +1,7 @@
 # <span style='color: red;'>Organo</span>
 
 Este é um {c:red}texto vermelho.{/c}
-### Projeto desenvolvido com React que mostra um formulário para cadastro de diferentes times de instrutores na Alura.
+##### Projeto desenvolvido com React que mostra um formulário para cadastro de diferentes times de instrutores na Alura.
 
 Funcionalidades: 
 * Adicionar, remover e favoritar colaboradores em times predeterminados;
