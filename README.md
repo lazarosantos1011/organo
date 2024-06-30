@@ -1,6 +1,5 @@
-# <span style='color: red;'>Organo</span>
+# Organo
 
-Este é um {c:red}texto vermelho.{/c}
 ### Projeto desenvolvido com React que mostra um formulário para cadastro de diferentes times de instrutores na Alura.
 
 Funcionalidades: 
