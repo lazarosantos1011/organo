@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Banner from './components/Banner';
 import Form from './components/Formulario';
 import Time from './components/Time';
@@ -47,6 +47,12 @@ function App() {
   ]);
 
   const [colaboradores, setColaboradores] = useState([]);
+
+  useEffect(() => {
+    fetch('https://organo-api-vercel.vercel.app/colaboradores')
+    .then(response => response.json())
+    .then(dados => setColaboradores(dados));
+  }, []);
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
     //debugger
