@@ -1,0 +1,23 @@
+.oculta-mostra-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.oculta-mostra-form::before {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #000;
+}
+
+.oculta-mostra-form__titulo {
+    display: inline-block;
+    border-bottom: 4px solid;
+    padding-bottom: 8px;
+    text-align: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-family: 'Prata', serif;
+}

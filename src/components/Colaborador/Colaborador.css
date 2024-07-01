@@ -1,3 +1,7 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .colaboradores {
     display: flex;
     justify-content: center;
@@ -32,12 +36,13 @@
     color: #6278F7;
     font-size: 18px;
     line-height: 22px;
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 8px;
 }
 
 .colaborador .rodape h5 {
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 22px;
     color: #212121;
     padding: 0 16px;

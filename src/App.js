@@ -4,6 +4,7 @@ import Form from './components/Formulario';
 import Time from './components/Time';
 import Footer from './components/Footer';
 import { v4 as uuidv4 } from 'uuid';
+import OcultaMostraForm from './components/OcultaMostraForm';
 
 function App() {
 
@@ -79,14 +80,25 @@ function App() {
     }));
   }
 
+  const [escondeForm, setEscondeForm] = useState(false);
+
+  function escondeMostraForm() {
+    setEscondeForm(!escondeForm);  
+  }
+
   return (
     <div className="App">
       <Banner />
+      {!escondeForm && (
+      <>
       <Form 
         cadastrarTime={cadastrarTime}
         times={times.map(time => time.nomeTime)} 
         aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)} />
-        {times.map(time => <Time 
+        </>
+      )}
+      <OcultaMostraForm esconderForms={escondeMostraForm}/>
+      {times.map(time => <Time 
         key={time.nomeTime} 
         nomeTime={time.nomeTime} 
         cor={time.cor}
