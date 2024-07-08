@@ -26,6 +26,10 @@
     margin: 0;
 }
 
+a, a:visited {
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     .footer {
         flex-direction: column;
