@@ -17,7 +17,7 @@ const Footer = () => {
             <div>
                 <img src="/images/logo.png" alt="Logo do Organo"/>
             </div>
-            <p>Desenvolvido por Alura.</p>
+            <p>Desenvolvido por <a href='https://github.com/lazarosantos1011' target='_blank'>Lázaro Rocha</a>.</p>
         </footer>
     )
 }
